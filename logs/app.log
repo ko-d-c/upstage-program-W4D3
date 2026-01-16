@@ -1,0 +1,11 @@
+2026-01-16 14:29:22,972 | INFO | uvicorn.error | Started server process [22208]
+2026-01-16 14:29:22,973 | INFO | uvicorn.error | Waiting for application startup.
+2026-01-16 14:29:22,974 | INFO | uvicorn.error | Application startup complete.
+2026-01-16 14:29:31,090 | ERROR | root | 제목이 없는 할 일 생성 시도: content missing
+2026-01-16 14:29:31,091 | INFO | uvicorn.access | 127.0.0.1:57566 - "POST /todos HTTP/1.1" 400
+2026-01-16 14:29:36,833 | INFO | root | 새로운 할 일 생성 완료: ID 3
+2026-01-16 14:29:36,836 | INFO | uvicorn.access | 127.0.0.1:57569 - "POST /todos HTTP/1.1" 200
+2026-01-16 14:35:17,026 | INFO | uvicorn.error | Shutting down
+2026-01-16 14:35:17,132 | INFO | uvicorn.error | Waiting for application shutdown.
+2026-01-16 14:35:17,133 | INFO | uvicorn.error | Application shutdown complete.
+2026-01-16 14:35:17,134 | INFO | uvicorn.error | Finished server process [22208]
